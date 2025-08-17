@@ -14,8 +14,6 @@
     <title>Swipe</title>
   </head>
   <body>
-    <canvas id="gradient-canvas"></canvas>
-
     <!-- Navbar -->
     <nav class="navbar">
       <img src="assets/logo-white.svg" alt="Swipe, inc." />
@@ -26,10 +24,17 @@
         <li><a href="#">Resources</a></li>
         <li><a href="#">Pricing</a></li>
       </ul>
+      <div class="hamburger-button">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
 
       <button class="primary-button navbar-button">Sign In</button>
     </nav>
     <main>
+      <!-- GRADIENT BACKGROUND -->
+      <canvas id="gradient-canvas"></canvas>
       <!-- Hero Section -->
       <div class="hero">
         <div class="section-container two-column">
@@ -43,16 +48,20 @@
             <div class="button-container">
               <button class="primary-button with-icon">
                 Start now
-                <img src="assets/arrow-right-light.svg" alt="" />
+                <img src="assets/arrow-right-light.svg" alt="arrow-right" />
               </button>
               <button class="secondary-button with-icon">
                 Contact sales
-                <img src="assets/arrow-right-purple.svg" alt="" />
+                <img src="assets/arrow-right-purple.svg" alt="arrow-right" />
               </button>
             </div>
           </div>
           <div class="col-right hero-phone-container">
-            <img class="hero-phone" src="assets/hero-phone.png" alt="" />
+            <img
+              class="hero-phone"
+              src="assets/hero-phone.png"
+              alt="phone-image"
+            />
           </div>
         </div>
       </div>
@@ -101,7 +110,7 @@
           </div>
           <button class="primary-button with-icon">
             Start now
-            <img src="assets/arrow-right-light.svg" alt="" />
+            <img src="assets/arrow-right-light.svg" alt="arrow-right" />
           </button>
         </div>
       </div>
@@ -109,10 +118,18 @@
       <div class="graphic-section">
         <div class="section-container">
           <div class="graphic-grid">
-            <img src="assets/credit-card.png" alt="" id="credit-card" />
-            <img src="assets/slack-invoice.png" alt="" id="slack-invoice" />
-            <img src="assets/phone.png" alt="" id="phone" />
-            <img src="assets/dash.png" alt="" id="dash" />
+            <img
+              src="assets/credit-card.png"
+              alt="credit-card"
+              id="credit-card"
+            />
+            <img
+              src="assets/slack-invoice.png"
+              alt="slack-invoice"
+              id="slack-invoice"
+            />
+            <img src="assets/phone.png" alt="phone" id="phone" />
+            <img src="assets/dash.png" alt="dash" id="dash" />
           </div>
         </div>
       </div>
@@ -131,12 +148,16 @@
 
             <button class="primary-button with-icon">
               Start now
-              <img src="assets/arrow-right-dark.svg" alt="" />
+              <img src="assets/arrow-right-dark.svg" alt="arrow-right" />
             </button>
 
             <div class="card-container">
               <div class="card">
-                <img src="assets/tools-icon.png" alt="" class="icon" />
+                <img
+                  src="assets/tools-icon.png"
+                  alt="tools-icon"
+                  class="icon"
+                />
                 <h3>Tools for all stacks</h3>
                 <p class="secondary-text">
                   We offer front end and back end libraries in some of the most
@@ -144,11 +165,11 @@
                 </p>
                 <button class="secondary-button with-icon">
                   See libraries
-                  <img src="assets/arrow-right-blue.svg" alt="" />
+                  <img src="assets/arrow-right-blue.svg" alt="arrow-right" />
                 </button>
               </div>
               <div class="card">
-                <img src="assets/cube-icon.png" alt="" class="icon" />
+                <img src="assets/cube-icon.png" alt="cube-icon" class="icon" />
                 <h3>Custom Integrations</h3>
                 <p class="secondary-text">
                   Use integrations for systems like Shopify, WooCommerce,
@@ -156,14 +177,18 @@
                 </p>
                 <button class="secondary-button with-icon">
                   Explore partners
-                  <img src="assets/arrow-right-blue.svg" alt="" />
+                  <img src="assets/arrow-right-blue.svg" alt="arrow-right" />
                 </button>
               </div>
             </div>
           </div>
           <div class="col-right">
-            <img src="assets/api-code.png" alt="" id="api-code" />
-            <img src="assets/terminal-code.png" alt="" id="terminal-code" />
+            <img src="assets/api-code.png" alt="api-code" id="api-code" />
+            <img
+              src="assets/terminal-code.png"
+              alt="terminal-code"
+              id="terminal-code"
+            />
           </div>
         </div>
       </div>
@@ -175,7 +200,7 @@
           <h2>A tech-first approach to finance</h2>
           <div class="card-container">
             <div class="card">
-              <img src="assets/cloud-icon.png" alt="" class="icon" />
+              <img src="assets/cloud-icon.png" alt="cloud-icon" class="icon" />
               <h3>Efficient Always</h3>
               <p class="secondary-text">
                 We've optimized every level of the finance stack, from
@@ -184,7 +209,7 @@
               </p>
             </div>
             <div class="card">
-              <img src="assets/cycle-icon.png" alt="" class="icon" />
+              <img src="assets/cycle-icon.png" alt="cycle-icon" class="icon" />
               <h3>Fast-Improving</h3>
               <p class="secondary-text">
                 We make constant updates and improvements to help you stay on
@@ -193,7 +218,11 @@
               </p>
             </div>
             <div class="card">
-              <img src="assets/shield-icon.png" alt="" class="icon" />
+              <img
+                src="assets/shield-icon.png"
+                alt="shield-icon"
+                class="icon"
+              />
               <h3>Tried and true</h3>
               <p class="secondary-text">
                 Our systems operate with 100% uptime, with scalability and
@@ -202,7 +231,7 @@
               </p>
             </div>
             <div class="card">
-              <img src="assets/bars-icon.png" alt="" class="icon" />
+              <img src="assets/bars-icon.png" alt="bars-icon" class="icon" />
               <h3>Crazy Optimized</h3>
               <p class="secondary-text">
                 We use machine learning trained on billions of data points to
@@ -230,7 +259,11 @@
               </p>
             </div>
             <div class="col-right">
-              <img id="globe" src="assets/global-graphic.png" alt="" />
+              <img
+                id="globe"
+                src="assets/global-graphic.png"
+                alt="global-graphic"
+              />
             </div>
           </div>
           <div class="card-container">
@@ -285,7 +318,7 @@
                 <img
                   id="sessions-logo"
                   src="assets/swipe-sessions.png"
-                  alt=""
+                  alt="swipe-sessions"
                 />
                 <div class="avatars">
                   <img src="assets/avatar1.png" alt="avatar 1" />
@@ -317,12 +350,16 @@
             </p>
             <button class="primary-button with-icon">
               Start now
-              <img src="assets/arrow-right-light.svg" alt="" />
+              <img src="assets/arrow-right-light.svg" alt="arrow-right" />
             </button>
           </div>
           <div class="col-right">
             <div class="card">
-              <img src="assets/shield-icon.png" alt="" class="icon" />
+              <img
+                src="assets/shield-icon.png"
+                alt="shield-icon"
+                class="icon"
+              />
               <h3>Always know what you pay</h3>
               <p class="secondary-text">
                 Integrated per-transaction pricing with no hidden fees.
@@ -330,11 +367,11 @@
 
               <button class="secondary-button with-icon">
                 Pricing details
-                <img src="assets/arrow-right-purple.svg" alt="" />
+                <img src="assets/arrow-right-purple.svg" alt="arrow-right" />
               </button>
             </div>
             <div class="card">
-              <img src="assets/bars-icon.png" alt="" class="icon" />
+              <img src="assets/bars-icon.png" alt="bars-icon" class="icon" />
               <h3>Start your integration</h3>
               <p class="secondary-text">
                 Get up and running with Stripe in as little as 10 minutes.
@@ -342,7 +379,7 @@
 
               <button class="secondary-button with-icon">
                 API reference
-                <img src="assets/arrow-right-purple.svg" alt="" />
+                <img src="assets/arrow-right-purple.svg" alt="arrow-right" />
               </button>
             </div>
           </div>
@@ -353,13 +390,13 @@
       <footer class="footer">
         <div class="section-container">
           <div class="col">
-            <img src="assets/logo-dark.svg" alt="" id="footer-logo" />
+            <img src="assets/logo-dark.svg" alt="logo-dark" id="footer-logo" />
             <div class="icon-link">
-              <img src="assets/location-icon.png" alt="" />
+              <img src="assets/location-icon.png" alt="location-icon" />
               <a href="#">United States</a>
             </div>
             <div class="icon-link">
-              <img src="assets/comment-icon.png" alt="" />
+              <img src="assets/comment-icon.png" alt="comment-icon" />
               <a href="#">English (United States)</a>
             </div>
           </div>
